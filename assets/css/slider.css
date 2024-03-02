@@ -1,0 +1,137 @@
+/* ------------ GOOGLE FONTS ------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* ------------ VARIABLES ------------ */
+
+/* ----------- SLIDER ------------ */
+.swiper-hr{
+  width: 100%;
+}
+
+.swiper-wrapper-hr{
+  width: 100%;
+  height: 45em;
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 20em;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  padding: 2em 1em;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 2em;
+}
+
+.swiper-slide-hr:not(.swiper-slide-active){
+  filter: blur(1px);
+}
+
+.card__image{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 5px solid var(--color);
+  padding: 3px;
+  margin-bottom: 2em;
+}
+
+.card__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card__content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: .2em;
+}
+
+.card__name{
+  color: var(--color);
+}
+
+.card__text{
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em 0;
+}
+
+.card__btn{
+  background-color: var(--color);
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
+  margin-top: .5em;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile and Tablet */
+@media screen and (max-width: 768px) {
+    .swiper-wrapper {
+      height: auto; /* Adjust height for smaller screens */
+    }
+  
+    .card {
+      width: 80%; /* Adjust card width for smaller screens */
+      margin: 0 auto 2em; /* Center cards and add some bottom margin */
+    }
+  
+    .card__image {
+      width: 8em; /* Adjust image size */
+      height: 8em;
+    }
+  
+    .card__title {
+      font-size: 1.2rem; /* Decrease title font size */
+    }
+  
+    .card__text {
+      font-size: 1rem; /* Decrease text font size */
+    }
+  
+    /* You can add more specific adjustments as needed */
+  }
+  
+  /* Additional Media Query for smaller mobile screens */
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 90%; /* Further adjust card width for smaller screens */
+    }
+  
+    .card__image {
+      width: 6em; /* Further adjust image size */
+      height: 6em;
+    }
+  
+    .card__title {
+      font-size: 1rem; /* Further decrease title font size */
+    }
+  
+    .card__text {
+      font-size: 0.9rem; /* Further decrease text font size */
+    }
+  
+    /* You can add more specific adjustments as needed */
+  }
+  

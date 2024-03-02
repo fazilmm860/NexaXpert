@@ -1,0 +1,157 @@
+    <!-- why us popup -->
+    <div id="popup-model" class="popup-overlay">
+      <div class="popup-container">
+
+        <div class="right">
+          <div class="skip-button"> </div>
+
+
+          <a href="tel:+155895548855" class="popup-btn"><i class="bi bi-telephone-fill"></i></a>
+          <a href="mailto:info@nexaxpert.com" class="popup-btn"><i class="bi bi-envelope-arrow-down-fill"></i></a>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- =======Inspection Services Section ======= -->
+    <section id="Insservices" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="image col-lg-6" style='background-image: url("assets/img/counts-img.jpg");' data-aos="fade-right">
+        </div>
+        <div class="section-title">
+          <h2>Inspection Services</h2>
+          <p>We specialize in serving the following key industries</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-search"></i></div>
+              <h4><a>Quality Assurance & Quality Control</a></h4>
+              <p>Ensure your products meet the highest standards with our comprehensive services. Rigorous inspection,
+                testing methodologies, and quality management systems identify and rectify deviations from specified
+                requirements.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-arrow-clockwise"></i></div>
+              <h4><a>Third Party Inspection</a></h4>
+              <p>Opt for unbiased evaluations with our Third Party Inspection services. Our skilled inspectors provide
+                impartial expertise, ensuring transparency and integrity in the inspection process for reliable
+                assessments.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-building-fill-check"></i></div>
+              <h4><a>Vendor Inspection</a></h4>
+              <p>Elevate your vendor management through our Vendor Inspection services. Our comprehensive inspections
+                evaluate supplier capabilities, ensuring adherence to specifications, industry standards, and regulatory
+                requirements, optimizing your supply chain.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-life-preserver"></i></div>
+              <h4><a>Pre-Shipment Inspection</a></h4>
+              <p>Prioritize product integrity with our Pre-Shipment Inspection services. Our experienced inspectors
+                meticulously examine goods at final production stages to identify defects, reducing the risk of returns
+                and enhancing customer satisfaction.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-shield-x"></i></div>
+              <h4><a>Expediting</a></h4>
+              <p>Expedite project timelines with our specialized services. We closely monitor and accelerate the
+                production process, ensuring on-time delivery to meet tight deadlines and maintain project schedules.
+                Trust us for efficient and timely expediting solutions.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Inspection Services Section -->
+
+
+
+    /////HR Services
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="image col-lg-6" style='background-image: url("assets/img/counts-img.jpg");' data-aos="fade-right">
+        </div>
+        <div class="section-title">
+          <h2>HR Services</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-person-check-fill"></i></div>
+              <h4><a>Recruitment Services</a></h4>
+              <p>Discover top talent with our tailored recruitment solutions. From executive roles to expanding your
+                team, we connect you with the best in the industry.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-feather"></i></div>
+              <h4><a>Emiratization</a></h4>
+              <p>Partner with us to meet Emiratization goals. We specialize in attracting, developing, and retaining
+                local talent for your organizational success.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-bullseye"></i></div>
+              <h4><a>Sustainability & Eco Talent Acquisition</a></h4>
+              <p>Build a green workforce with our eco-friendly talent acquisition. Find candidates who share your
+                commitment to sustainability for a future-ready workplace.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-buildings"></i></div>
+              <h4><a>Hiring and Management Advice</a></h4>
+              <p>Get expert insights for seamless hiring and management. Our HR professionals offer guidance on best
+                practices to optimize your processes.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-bank2"></i></div>
+              <h4><a>Human Resource Management</a></h4>
+              <p>Simplify HR with our comprehensive management services. From payroll to compliance, we empower your
+                organization for efficient HR operations.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+    ///// END HR Services
