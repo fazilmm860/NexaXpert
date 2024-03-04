@@ -1395,7 +1395,18 @@ section {
     transform: rotate(360deg);
   }
 }
-
+.submit-btn{
+  background: #ea2a4f;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.submit-btn:hover{
+  background: #000;
+  color: #ea2a4f;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
