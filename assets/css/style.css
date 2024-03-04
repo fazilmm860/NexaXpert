@@ -928,12 +928,12 @@ section {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.portfolio-details .portfolio-details-slider .swiper-paginations {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-paginations .swiper-paginations-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -941,7 +941,7 @@ section {
   border: 1px solid #ea2a4f;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-paginations .swiper-paginations-bullet-active {
   background-color: #ea2a4f;
 }
 
@@ -1144,19 +1144,19 @@ section {
   color: #eee;
 }
 
-.testimonials .swiper-pagination {
+.testimonials .swiper-paginations {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.testimonials .swiper-paginations .swiper-paginations-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.4);
   opacity: 0.5;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.testimonials .swiper-paginations .swiper-paginations-bullet-active {
   background-color: #ea2a4f;
   opacity: 1;
 }
