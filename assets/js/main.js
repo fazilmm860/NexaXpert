@@ -296,7 +296,7 @@
 
 // popup //
 
-const popupOverlay=document.querySelector(".popup-overlay");
+const popupOverlay=document.querySelector(".popup-overlays");
 const skipButton=document.querySelector(".popup-container .skip-button");
 const visitButton=document.querySelector("popup-container .popup-btn");
 const moreButton=document.querySelector(".more-btn");

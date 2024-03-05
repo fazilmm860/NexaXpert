@@ -1644,7 +1644,7 @@ section {
 /* Popup - Home Page
 ------------------------------*/
 
-.popup-overlay{
+.popup-overlays{
   position: fixed;
   left: 0;
   top: 0;
@@ -1654,7 +1654,7 @@ section {
   transition: all 700ms ease;
 }
 
-.popup-overlay.active{
+.popup-overlays.active{
   opacity: 1;
 }
 
@@ -1673,7 +1673,7 @@ section {
   transition: all 700ms ease;
 }
 
-.popup-overlay.active .popup-container{
+.popup-overlays.active .popup-container{
   transform: translate(-50%, -50%);
   opacity: 1;
   pointer-events: auto;
@@ -1729,7 +1729,7 @@ section {
 
 
 @media screen and (max-width: 768px) {
-  .popup-overlay{
+  .popup-overlays{
     position: fixed;
     left: 0;
     top: 0;
@@ -1739,7 +1739,7 @@ section {
     transition: all 700ms ease;
   }
   
-  .popup-overlay.active{
+  .popup-overlays.active{
     opacity: 1;
   }
   
@@ -1758,7 +1758,7 @@ section {
     transition: all 700ms ease;
   }
   
-  .popup-overlay.active .popup-container{
+  .popup-overlays.active .popup-container{
     transform: translate(-50%, -50%);
     opacity: 1;
     pointer-events: auto;
