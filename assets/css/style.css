@@ -349,7 +349,7 @@ h6 {
   background-color: #ffffff;
   overflow-y:auto;
   transition: 0.3s;
-  height: 200px;
+  height: 250px;
 }
 
 .navbar-mobile a,
@@ -1732,7 +1732,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ea2a4f;
+  background: #b7b5b5;
   color: #151515;
   text-decoration: none;
 }
