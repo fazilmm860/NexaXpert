@@ -551,7 +551,14 @@ section {
   background: #ea2a4f;
   margin: 4px 10px;
 }
-
+.section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ea2a4f;
+  margin: 4px 10px;
+}
 .section-title p {
   margin: 0;
   margin: 0;
