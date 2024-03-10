@@ -1564,6 +1564,12 @@ section {
   color: #ea2a4f;
 }
 
+/* Hide popup on lg screens */
+@media screen and (min-width: 992px) {
+  .popup-overlays {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .popup-overlays{
