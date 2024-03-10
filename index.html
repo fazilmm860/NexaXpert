@@ -61,14 +61,16 @@
           </li>
           <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
           <li><a class="nav-link scrollto careers" href="https://www.linkedin.com/company/nexaxpert/" target="_blank"
-              style="visibility: hidden;">Careers</a>
+              style="visibility: hidden;"></a>
           </li>
         </ul>
 
         <i class="bi bi-list mobile-nav-toggle"></i>
 
       </nav><!-- .navbar -->
-      <a href="https://www.linkedin.com/company/nexaxpert/" target="_blank" class="get-started-btn scrollto">Careers</a>
+      <a href="https://www.linkedin.com/company/nexaxpert/posts/?feedView=all" target="_blank"
+        class="get-started-btn scrollto">Job
+        Opportunities</a>
       <!-- <a href="https://twitter.com/NexaXpert" class="get-started-btn scrollto"><img src="/assets/img/icons/twitter.png"
           alt="twitter" srcset=""></a>
       <a href="https://www.instagram.com/nexaxpert/" class="get-started-btn scrollto"><img
@@ -582,7 +584,26 @@
       });
     });
   </script>
+  <script>
+    // Get all card elements
+    var cards = document.querySelectorAll('.card');
 
+    // Add event listeners to each card
+    cards.forEach(function (card) {
+      card.addEventListener('mouseenter', function () {
+        // Increase the scale and adjust the border color when hovering over the card
+        card.style.transform = 'scale(1.05)';
+        card.style.borderColor = '#ea2a4f';
+        card.style.transition = 'transform 0.3s ease';
+      });
+
+      card.addEventListener('mouseleave', function () {
+        // Reset the scale and border color when the mouse leaves the card
+        card.style.transform = 'scale(1)';
+        card.style.borderColor = 'initial';
+      });
+    });
+  </script>
 
 </body>
 
