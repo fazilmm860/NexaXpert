@@ -161,7 +161,7 @@ h6 {
 --------------------------------------------------------------*/
 .get-started-btn {
   color: #fff;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   /* padding: 6px 25px 7px 25px; */
   padding: 10px;
   white-space: nowrap;
@@ -802,7 +802,14 @@ section {
   border-color: #c0546a;
   color: #151515;
 }
-
+#makeCallDesktop {
+  display: none;
+}
+@media only screen and (max-width: 776px) {
+  #makeCallDesktop {
+    display: block;
+  }
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
