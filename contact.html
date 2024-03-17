@@ -136,57 +136,56 @@
                     </div>
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
-
-                        <div id="submit-form" method="post" role="form" class="php-email-form" ,>
+                        <div id="submit-form" method="post" role="form" class="php-email-form">
                             <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="custName">Name <span style="color: red;">*</span></label>
+                                        <input type="text" class="form-control" name="custName" id="custName"
+                                            placeholder="Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="companyName">Company Name <span style="color: red;">*</span></label>
+                                        <input type="text" class="form-control" name="companyName" id="companyName"
+                                            placeholder="Company Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="businessEmail">Business Email <span
+                                                style="color: red;">*</span></label>
+                                        <input type="email" class="form-control" name="businessEmail" id="businessEmail"
+                                            placeholder="Business Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="custNumber">Contact Number <span
+                                                style="color: red;">*</span></label>
+                                        <input type="text" class="form-control" name="custNumber" id="custNumber"
+                                            placeholder="Contact Number" required>
+                                    </div>
+                                </div>
+                            </div>
 
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="">Name <span style="color: red;">*</span></label>
-                                <input type="text" class="form-control" name="custName" id="custName"
-                                    placeholder=" Name" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="">Company Name <span style="color: red;">*</span></label>
-                                <input type="text" class="form-control" name="companyName" id="companyName"
-                                    placeholder="Company Name" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="">Business Email<span style="color: red;">*</span></label>
-                                <input type="email" class="form-control" name="businessEmail" id="businessEmail"
-                                    placeholder="Business Email" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="">Industry <span style="color: red;">*</span></label>
-                                <input type="text" class="form-control" name="industry" id="industry"
-                                    placeholder="Industry" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="">Contact Number<span style="color: red;">*</span></label>
-                                <input type="text" class="form-control" name="custNumber" id="custNumber"
-                                    placeholder="Contact Number" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" required>
-                            </div>
-                            <label for="">Your Queries</label>
-                            <div class="form-group mt-3">
+                            <div class="form-group">
+                                <label for="queries">Your Queries</label>
                                 <textarea class="form-control" id="queries" name="queries" rows="5"
                                     placeholder="Your Queries"></textarea>
                             </div>
+
                             <div class="my-3">
                                 <div class="loading">Loading</div>
-                                <div class="error-message">error indicating</div>
+                                <div class="error-message">Error indicating</div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
+
                             <div class="text-center">
                                 <button class="submit-btn" onclick="SendMail()">Send Message</button>
                             </div>
-                            </d>
                         </div>
-
                     </div>
 
                 </div>
