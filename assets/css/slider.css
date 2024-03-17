@@ -20,7 +20,7 @@
   height: 60%;
   background-color: #fff;
   border-radius: 2em;
-  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.18);
   padding: 2em 1em;
   display: flex;
   align-items: center;
